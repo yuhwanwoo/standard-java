@@ -7,6 +7,9 @@ public class ComparatorTest {
     public static void main(String[] args) {
         String[] strArr = {"cat", "Dog", "lion", "tiger"};
         Arrays.sort(strArr, new Descending());
+        for (String s : strArr) {
+            System.out.println("s = " + s);
+        }
     }
 
 
